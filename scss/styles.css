@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.header_menu {
+.header {
   height: 70px;
   display: flex;
   flex-direction: row;
@@ -11,13 +11,12 @@ body {
   width: 100%;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
 }
-
 .header_home {
   display: flex;
   align-items: center;
   margin-left: -150px;
 }
-.header_home .hotel_icon {
+.header_home_hotel_icon {
   height: 36px;
   width: 36px;
   display: flex;
@@ -25,11 +24,11 @@ body {
   justify-content: center;
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
 }
-.header_home .hotel_icon a {
+.header_home_hotel_icon a {
   text-decoration: none;
   color: black;
 }
-.header_home .hotel_icon a:visited {
+.header_home_hotel_icon a:visited {
   text-decoration-color: black;
 }
 .header_home p {
