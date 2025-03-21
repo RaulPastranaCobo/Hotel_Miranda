@@ -1,0 +1,93 @@
+.about_us {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  .about_us_1 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.8px;
+    width: 250px;
+    color: #ffffff;
+  }
+
+  .about_us_2 {
+    font-family: Old Standard TT;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: #ffffff;
+    width: 300px;
+  }
+
+  .about_us_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .tour {
+      width: 220px;
+      height: 60px;
+      background: #bead8e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-family: Archivo;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+
+    .learn {
+      width: 216px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #ffffff54;
+      p {
+        font-family: Archivo;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 2.8px;
+        color: #ffffff;
+      }
+    }
+
+    .about_us_3_1 {
+      font-family: Archivo;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: -0.48px;
+      color: black;
+      display: block;
+      position: relative;
+      left: 60%;
+      background-color: white;
+      width: 126px;
+      height: 49px;
+      align-content: center;
+      text-align: center;
+
+      .about_us_3_2 {
+        font-family: Archivo;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: -0.48px;
+        color: #bead8e;
+      }
+    }
+  }
+}

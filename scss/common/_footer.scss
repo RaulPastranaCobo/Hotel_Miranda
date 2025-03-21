@@ -1,0 +1,216 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  .footer_home {
+    display: flex;
+    align-items: center;
+
+    .hotel_icon {
+      height: 80px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 14px 24px 0px #8b8b8b26;
+      background-color: #bead8e;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: Archivo;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 43px;
+        letter-spacing: 0px;
+      }
+
+      a:visited {
+        text-decoration-color: white;
+      }
+    }
+    p {
+      font-family: Archivo;
+      //font-weight: 700;
+      font-size: 26px;
+      line-height: 100%;
+      letter-spacing: 2.6px;
+
+      width: 30px;
+      margin-left: 10px;
+    }
+  }
+
+  .footer_description {
+    text-align: center;
+    margin-right: 20px;
+    p {
+      font-family: Archivo;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0px;
+      color: #777777;
+    }
+  }
+
+  .footer_socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+
+    .footer_socials_1 {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f8f8f8;
+    }
+
+    .footer_socials_2 {
+      background-color: #bead8e;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer_socials_3 {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f8f8f8;
+    }
+
+    .footer_socials_4 {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f8f8f8;
+    }
+
+    .footer_socials_5 {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f8f8f8;
+    }
+  }
+
+  .footer_services {
+    display: flex;
+    flex-direction: column;
+
+    .footer_services_1 {
+      p {
+        font-family: Old Standard TT;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0px;
+      }
+    }
+
+    .footer_services_2 {
+      display: flex;
+      flex-direction: row;
+      align-self: start;
+
+      .footer_services_2_1 {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 48px;
+        letter-spacing: 0px;
+        color: #777777;
+        list-style: none;
+        margin-left: -30px;
+        // li::before {
+        //   content: "+";
+        //   margin-right: 8px;
+        // }
+      }
+
+      .footer_services_2_2 {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 48px;
+        letter-spacing: 0px;
+        color: #777777;
+        list-style: none;
+      }
+    }
+  }
+
+  .footer_contact_us {
+    display: flex;
+    flex-direction: column;
+
+    .footer_contact_us_1 {
+      p {
+        font-family: Old Standard TT;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0px;
+      }
+    }
+    .footer_contact_us_2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .footer_contact_us_3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .footer_contact_us_4 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
+
+.footer_bottom {
+  width: 100%;
+  height: 94px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  .footer_bottom_copyright {
+    p {
+      font-family: Roboto;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: -0.48px;
+      padding-left: 10px;
+    }
+  }
+
+  .footer_bottom_terms {
+    p {
+      font-family: Roboto;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: -0.48px;
+      padding-left: 10px;
+    }
+  }
+}
