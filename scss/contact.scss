@@ -1,0 +1,54 @@
+@import "../scss/common/html";
+@import "../scss/common/header";
+@import "../scss/common/about_us";
+@import "../scss/common/footer";
+
+.contact {
+  &_info {
+    &_card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2rem;
+      padding-bottom: 2rem;
+      &_icon {
+        height: 3rem;
+        margin-left: 2rem;
+      }
+
+      &_desc {
+        z-index: 1;
+        margin-right: 6rem;
+        &_title {
+          font-family: Old Standard TT;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0px;
+          color: #222222;
+        }
+
+        &_subtitle {
+          & > p {
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #777777;
+          }
+        }
+      }
+      &_number {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 100%;
+        letter-spacing: -6px;
+        position: absolute;
+        color: #f8f8f8;
+        left: 11rem;
+      }
+    }
+  }
+}

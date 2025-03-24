@@ -41,5 +41,172 @@
 
   &_restaurant {
     margin-left: 1rem;
+    width: 90%;
+    &_title {
+      font-family: Archivo;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 2.8px;
+      //text-align: center;
+      text-transform: uppercase;
+      color: #777777;
+    }
+
+    &_subtitle {
+      font-family: Old Standard TT;
+      font-weight: 400;
+      font-size: 36px;
+      letter-spacing: -1.2px;
+      width: 90%;
+    }
+
+    &_desc {
+      font-family: Archivo;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #777777;
+    }
+
+    &_button {
+      font-family: Archivo;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      color: #ffffff;
+      display: block;
+      height: 2rem;
+      width: 10rem;
+      background-color: #bdac8d;
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+
+  &_counter {
+    margin-left: 1rem;
+    &_title {
+      font-family: Archivo;
+      font-weight: 700;
+      font-size: 14px;
+      //line-height: 100%;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      color: #777777;
+    }
+    &_subtitle {
+      font-family: Old Standard TT;
+      font-weight: 400;
+      font-size: 46px;
+      //line-height: 60px;
+      letter-spacing: -1.2px;
+      color: #222222;
+      width: 70%;
+    }
+
+    &_info {
+      &_users {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &_img {
+          height: 4rem;
+        }
+
+        &_text {
+          &_number {
+            font-family: Old Standard TT;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 60px;
+            letter-spacing: -1.8px;
+            margin-bottom: 0px;
+            margin-top: 1rem;
+          }
+          &_desc {
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-top: 0px;
+          }
+        }
+
+        &_arrow {
+          height: 2rem;
+        }
+      }
+
+      &_reviews {
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        &_img {
+          height: 4rem;
+        }
+
+        &_text {
+          &_number {
+            font-family: Old Standard TT;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 60px;
+            letter-spacing: -1.8px;
+            margin-bottom: 0px;
+            margin-top: 1rem;
+          }
+          &_desc {
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-top: 0px;
+          }
+        }
+
+        &_arrow {
+          height: 2rem;
+        }
+      }
+
+      &_coverage {
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        &_img {
+          height: 4rem;
+        }
+
+        &_text {
+          &_number {
+            font-family: Old Standard TT;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 60px;
+            letter-spacing: -1.8px;
+            margin-bottom: 0px;
+            margin-top: 1rem;
+          }
+          &_desc {
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-top: 0px;
+          }
+        }
+
+        &_arrow {
+          height: 2rem;
+        }
+      }
+    }
   }
 }
